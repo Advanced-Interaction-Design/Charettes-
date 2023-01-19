@@ -307,7 +307,8 @@ $(document).ready(function () {
                 break;
     
         }
-    }
+    });
+
     
 
 
