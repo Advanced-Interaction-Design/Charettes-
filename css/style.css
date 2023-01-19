@@ -1,0 +1,35 @@
+.cell {
+    background-color: rgb(255, 255, 255);
+}
+
+
+#cell-1 {
+    transition: box-shadow .5s, ease-in-out border-radius 1s, transform .5s ease-in-out;
+}
+
+
+#cell-1:hover {
+
+    
+    /* add a float box shadow */
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.17);
+    /* translate up */
+    transform: translateY(-10px);
+    
+    /* cute rounded edges */
+    border-radius: .5rem;
+}
+
+
+/* -------------------------------- */
+
+/* #cell-2 {
+    transition: all .5s ease-in-out;
+}
+
+#cell-2:hover {
+    animation: wiggle-h .7s ease-in-out forwards;
+}
+ */
+
+

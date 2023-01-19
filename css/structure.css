@@ -3,15 +3,18 @@
     display: grid;
     /* define the grid */
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* add a gap */
+    /* grid-gap: 20px; */
 
 }
 
 .cell {
     border: 1px solid black;
-    height: 100px;
+    height: 13vw;
     width: 100%;
 }
 
 body {
-    background-color: red;
+    padding: 20px;
 }
+
